@@ -7,3 +7,7 @@ Then n + m lines of points. x and y must be splitted by space. So the example of
 5 3
 6 5
 1 1
+
+
+The code is bad, because the nodejs best practice was not followed. I'm gonna rewrite it in the future.
+Also, the visualization of polygons will be added.
