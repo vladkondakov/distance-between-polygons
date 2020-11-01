@@ -1,4 +1,4 @@
-This project help you to find distance between two polygons in 2D.
+This project helps you to find distance between two polygons in 2D.
 
 Upload the .txt file. 
 .txt input file includes n and m as a first line, where n - amount of vertices of the first polygon and m - amount of vertices of the second polygon. 
