@@ -1,0 +1,32 @@
+{
+  "name": "dist-polygons",
+  "version": "1.0.0",
+  "description": "Distance between two polygons 2d",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "Polygons",
+    "Distance",
+    "2D"
+  ],
+  "author": "Vladislav Kondakov <vladisloove.kondakov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-handlebars": "^5.2.0",
+    "file-upload": "0.0.0",
+    "fs": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}

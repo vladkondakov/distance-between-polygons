@@ -1,0 +1,37 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="app-name">Приложение для нахождения расстояния между многоугольниками</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            {{#if isHome}}
+            <li class="active"><a href="/">Главная</a></li>
+            {{else}}
+            <li><a href="/">Главная</a></li>
+            {{/if}}
+
+            {{#if isUpload}}
+            <li class="active"><a href="/polygons/upload">Загрузить файл</a></li>
+            {{else}}
+            <li><a href="/polygons/upload">Загрузить файл</a></li>
+            {{/if}}
+
+            {{#if isPolygons}}
+            <li class="active"><a href="/polygons">Многоугольники</a></li>
+            {{else}}
+            <li><a href="/polygons">Многоугольники</a></li>
+            {{/if}}
+
+            {{#if isMinkSum}}
+            <li class="active"><a href="/polygons/minksum">Сумма Минковского</a></li>
+            {{else}}
+            <li><a href="/polygons/minksum">Сумма Минковского</a></li>
+            {{/if}}
+
+            {{#if isDistance}}
+            <li class="active"><a href="/polygons/distance">Расстояние</a></li>
+            {{else}}
+            <li><a href="/polygons/distance">Расстояние</a></li>
+            {{/if}}
+        </ul>
+    </div>
+</nav>
